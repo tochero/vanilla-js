@@ -10,16 +10,27 @@ btns.forEach((btn) => {
             count--;
             document.body.style.backgroundColor = 'fuchsia'
             value.textContent = count;
+
+            if (count == 0) {
+                document.body.style.backgroundColor = 'red';
+            }
         }
         if (styles.contains('reset')) {
             count = 0;
             value.textContent = count;
-            document.body.style.backgroundColor = 'green';
+            if (count == 0) {
+                document.body.style.backgroundColor = 'red'; 
+            }
         } 
         if (styles.contains('increase')) {
             count += 1;
             value.textContent = count;
-            document.body.style.backgroundColor = 'blue';
+            if (count>0) {
+                document.body.style.backgroundColor = 'blue';
+            }
+            if (count==0) {
+                document.body.style.backgroundColor = 'red';
+            }
         } 
 
 
