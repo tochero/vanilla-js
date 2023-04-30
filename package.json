@@ -4,13 +4,15 @@
   "description": "vanilla.js practicals",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch"
-   
+    "dev": "tailwindcss build -i src/styles.css -o public/styles.css --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.1",
     "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1"
   }
 }

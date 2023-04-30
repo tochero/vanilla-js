@@ -1,0 +1,6 @@
+.grid{
+    grid-template-rows: auto 1fr auto;
+}
+.remove-aside{
+    transform: translate(-100%);
+}

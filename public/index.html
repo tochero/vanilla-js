@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/node_modules/fontawesome-free-6.4.0-web/css/all.min.css">
+	<link rel="stylesheet" href="/public/styles.css">
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <!-- <nav class="min-h-[9vh] shadow-md shadow-gray-400">
-    <div class="flex justify-around items-center h-[9vh] text-sm max-w-[70%] mx-auto">
+	<div class="bg-slate-400 p-6 shadow-md shadow-gray-500">
+		<nav class="flex justify-end">
+			<button><i id="" class="btn-toggle fa fa-bars-staggered fa-beat text-white text-[25px]"></i></button>
+		</nav>
+	</div>
 
-        <h3 class="uppercase text-sky-300">color flipper</h3>
-        <ul class="flex justify-between space-x-4">
-            <li><a href="index.html" class="text-sky-400 uppercase">color</a></li>
-            <li><a href="index.html" class="text-sky-400 uppercase">hex</a></li>
-        </ul>
-    </div>
-  </nav>
+	<aside id="" class="btn-control remove-aside shadow-lg shadow-black absolute bg-white top-0 left-0 min-h-screen md:w-[400px] lg:hidden w-full p-6 grid duration-[0.4s] transition-transform ease-out ">
+		<div class="flex justify-between items-center">
+			<h1 class="drop-shadow-lg text-blue-300 text-[35px]">The <span class="drop-shadow-xl text-black">zone</span> </h1>
 
-  <div class="min-h-[90vh] flex flex-col justify-center items-center space-y-4">
-    <h3 class="bg-black rounded-md capitalize p-3 tracking-widest text-white">BackgroundColor: <span class="text-sky-300" id="color">#F1f5F8 </span></h3>
-
-    <button class="uppercase border-[2px] border-black text-sm px-2 rounded-sm" id="btn">click me</button>
-  </div> -->
-    <div class="min-h-screen flex flex-col justify-center items-center space-y-6">
-        <h1 class="font-bold text-4xl">counter</h1>
-        <h2 class="font-bold text-3xl" id="value">0</h2>
-        <div class="flex space-x-6">
-            <button class="btn uppercase border-[2px] border-black text-sm px-2 rounded-sm decrease" >decrease</button>
-            <button class="btn reset uppercase border-[2px] border-black text-sm px-2 rounded-sm" >reset</button>
-            <button class="btn increase uppercase border-[2px] border-black text-sm px-2 rounded-sm" >increase</button>
-        </div>
-    </div>
-
+			<button><i class="btn-hide fa fa-times fa-spin text-red-700 text-[30px]"></i></button>
+		</div>
+		<ul class="pt-12 flex flex-col items-center text-center md:items-start md:text-start">
+			<li><a class="block duration-300 text-[24px] p-3 hover:text-gray-500 text-black hover:text-[26px]" href="#">Home</a></li>
+			<li><a class="block duration-300 text-[24px] p-3 hover:text-gray-500 text-black hover:text-[26px]" href="#">About</a></li>
+			<li><a class="block duration-300 text-[24px] p-3 hover:text-gray-500 text-black hover:text-[26px]" href="#">Employ</a></li>
+			<li><a class="block duration-300 transi text-[24px] p-3 hover:text-gray-500 text-black hover:text-[26px]" href="#">Export</a></li>
+		</ul>
+		<div class="flex space-x-6 justify-center md:justify-start">
+			<li class="list-none"><a class="" href=""><i class="fab fa-whatsapp text-[25px] text-green-400"></i></a></li>
+			<li class="list-none"><a class="" href=""><i class="fab fa-facebook text-[25px] text-blue-400"></i></a></li>
+			<li class="list-none"><a class="" href=""><i class="fab fa-twitter text-[25px] text-blue-400"></i></a></li>
+		</div>
+	</aside>
 
 
-    <script src="count.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>
